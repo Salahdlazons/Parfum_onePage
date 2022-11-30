@@ -1,0 +1,88 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.image {
+    height: 100%;
+    flex: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.droite {
+    margin-left: 20px;
+}
+
+.Perfume {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 45px;
+    margin-left: 25px;
+    color: rgb(195, 194, 194);
+
+}
+
+.nom_parfum {
+    font-family: 'Fraunces', serif;
+    margin: 35px;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.price {
+    display: flex;
+    padding: 15px;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(131, 131, 131);
+    margin: 15px;
+
+}
+
+.New_price {
+    color: green;
+    font-size: 55px;
+    font-family: 'Fraunces', serif;
+}
+
+.Old_price {
+    color: rgb(234, 234, 234);
+    text-decoration: line-through;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.Add_button {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgb(93, 177, 120);
+    color: white;
+    border-radius: 9px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 60px;
+    width: 270px;
+
+}
+
+i {
+    width: auto;
+    height: auto;
+}
